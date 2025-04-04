@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Masafi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.php">
+                <i class="bi bi-droplet-fill me-2"></i>Masafi
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white px-4" href="signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h1 class="display-4 fw-bold mb-4">Our Story</h1>
+                    <p class="lead mb-4">Masafi Water is a Water Refilling Station located in Thindigua, Kiambu County.<br>
+                        At Masafi, We specialize in purification and supply of water in various quantities ranging from half litre bottles to 20 litre bottles.<br>
+                        Purchases can be made in-store, through our online app or by calling our office number where we also offer FREE DELIVERY!!<br><br></p>
+                    <p class="mb-4"><h3>Our Vision</h3>
+                        We aim to be the go-to brand for all your water needs through effective service delivery and a customer-focused approach to business. <br><br>
+                        
+                        <h3> Our Mission</h3>
+                        To provide the people of Thindigua and Kiambu at large with clean purified drinking water as well as create employment opportunities to the youth of the area.
+                        
+                    <div class="d-flex gap-4 mb-5">
+                        <div class="text-center">
+                            <h2 class="display-4 fw-bold text-primary">1000+</h2>
+                            <p class="text-muted">Clients Served</p>
+                        </div>
+                        <div class="text-center">
+                            <h2 class="display-4 fw-bold text-primary">1M+</h2>
+                            <p class="text-muted">Litres Sold</p>
+                        </div>
+                        <div class="text-center">
+                            <h2 class="display-4 fw-bold text-primary">98%</h2>
+                            <p class="text-muted">Satisfaction Rate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?auto=format&fit=crop&w=600" 
+                         alt="About Masafi" class="img-fluid rounded-4 shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Values</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <i class="bi bi-shield-check text-primary display-4 mb-3"></i>
+                            <h4>Quality Assurance</h4>
+                            <p class="text-muted">We maintain the highest standards of water quality and service delivery.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <i class="bi bi-lightning text-primary display-4 mb-3"></i>
+                            <h4>Innovation</h4>
+                            <p class="text-muted">Continuously improving our technology to serve you better.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <i class="bi bi-people text-primary display-4 mb-3"></i>
+                            <h4>Customer First</h4>
+                            <p class="text-muted">Your success is our success. We're here to support your growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="footer-title"><i class="bi bi-droplet-fill me-2"></i>Masafi</h5>
+                    <p class="text-light opacity-75">Automating the water distribution business by helping you get your deliveries with the click of a button.</p>
+                    <div class="social-links">
+    <a href="https://www.facebook.com/swaggticha" target="_blank">
+        <img src="images/facebook.png" alt="Facebook">
+    </a>
+    <a href="https://twitter.com/Dre254" target="_blank">
+        <img src="images/twitter.png" alt="Twitter">
+    </a>
+    <a href="https://www.instagram.com/dre_maina" target="_blank">
+        <img src="images/instagram.png" alt="Instagram">
+    </a>
+    <a href="https://www.linkedin.com/in/andre-maina-3aa7a6bb" target="_blank">
+        <img src="images/linkedin.png" alt="LinkedIn">
+    </a>
+    <a href="https://www.youtube.com/@gullyswag" target="_blank">
+        <img src="images/youtube.png" alt="YouTube">
+    </a>
+</div>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="footer-title">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="footer-title">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="inventory.html">Vending Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="footer-title">Newsletter</h5>
+                    <p class="text-light opacity-75">Subscribe for updates and news</p>
+                    <form class="mt-3">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <div class="col-md-6 text-md-end">
+                    <p class="copy-right">&copy <?php
+
+                        echo date('Y')?> Masafi Water Vending System. All rights reserved </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
